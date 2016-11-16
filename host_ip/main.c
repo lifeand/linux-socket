@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		break;
 	    default:
 		printf("Usage: %s <-h host> or <-i ip>\n",argv[0]);
-		break;
+		return 0;
 	}
     }
     printf("Usage: %s <-h host> or <-i ip>\n",argv[0]);
